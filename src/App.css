@@ -1,38 +1,99 @@
-.App {
-  text-align: center;
+body {
+  background-color: #f2cec9;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: 'TitilliumWeb-ExtraLight';
+  src: url(./fonts/TitilliumWeb-ExtraLight.ttf)
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@font-face {
+  font-family: 'TitilliumWeb-Light';
+  src: url(./fonts/TitilliumWeb-Light.ttf)
+}
+
+@font-face {
+  font-family: 'TitilliumWeb-Regular';
+  src: url(./fonts/TitilliumWeb-Regular.ttf)
+}
+
+h1 {
+  font-family: TitilliumWeb-Regular;
+  font-size: 80px;
+}
+
+h2 {
+  font-family: TitilliumWeb-ExtraLight;
+  font-size: 50px;
+}
+
+.nav-link {
+  font-family: TitilliumWeb-ExtraLight;
+  font-size: 19px;
+  color: white !important;
+}
+
+/*.navbar {*/
+.navBarContainer {
+  background-image: url('./images/Logo.png');
+  background-size: auto 100px;
+  /* background-size: cover; */
+  background-repeat:no-repeat;
+  /* background-color: black; */
+  background-position: 40px;
+  /* overflow: visible; */
+  /* background-position: 100% auto; */
+  margin-top: 40px;
+  /* width: 1200px; */
+  height: 100px;
+  /* border: 1px solid black; */
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  /* position: relative; */
+  /* z-index: -2; */
+  /* pointer-events: none; */
+}
+
+/*.blackDiv {*/
+.navbar {
+  background-color: black;
+  height: 50px;
+  width: 100%;
+  z-index: -1;
+  /* border: 1px solid blue; */
+  position: relative;
+  top: 25%;
+}
+
+/* .navbarToggler {
+  position: relative;
+  z-index: 3000;
+} */
+
+.container-fluid {
+  margin-top: 40px;
+}
+
+img {
+  width: auto;
+  height: 530px;
+}
+
+@media only screen and (max-width: 768px) {
+  img {
+    height: 330px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (min-width: 1700px) {
+  img {
+    height: 650px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media only screen and (max-width: 992px) {
+  .navbar {
+    /* background-size: auto 100px; */
+    /* background-position: 40px 0; */
   }
 }
