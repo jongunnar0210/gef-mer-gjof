@@ -33,67 +33,64 @@ h2 {
   color: white !important;
 }
 
-/*.navbar {*/
-.navBarContainer {
-  background-image: url('./images/Logo.png');
-  background-size: auto 100px;
-  /* background-size: cover; */
-  background-repeat:no-repeat;
-  /* background-color: black; */
-  background-position: 40px;
-  /* overflow: visible; */
-  /* background-position: 100% auto; */
-  margin-top: 40px;
-  /* width: 1200px; */
-  height: 100px;
-  /* border: 1px solid black; */
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-  /* position: relative; */
-  /* z-index: -2; */
-  /* pointer-events: none; */
-}
-
-/*.blackDiv {*/
 .navbar {
   background-color: black;
+  margin-top: 40px;
   height: 50px;
-  width: 100%;
-  z-index: -1;
-  /* border: 1px solid blue; */
-  position: relative;
-  top: 25%;
+  padding: 0;
 }
 
-/* .navbarToggler {
-  position: relative;
-  z-index: 3000;
-} */
+.navbar img {
+  height: 90px;
+  width: auto;
+  margin-left: 50px;
+}
+
+.navbar-brand {
+  padding : 0;
+}
+
+@media only screen and (max-width: 992px) {
+  .navbar {
+    height: auto;
+  }
+  .navbar img {
+    margin-left: 0;
+  }
+  .navbarItems {
+    margin-left: 14px !important;
+  }
+  .nav-link:nth-child(1) {
+    padding-top: 0;
+  }
+}
+
+.navbarItems {
+  margin-right: 40px;
+}
+
+.navbarToggler {
+  margin-right: 10px;
+}
 
 .container-fluid {
   margin-top: 40px;
+  padding-left: 45px;
 }
 
-img {
+.handsImg {
   width: auto;
   height: 530px;
 }
 
 @media only screen and (max-width: 768px) {
-  img {
+  .handsImg {
     height: 330px;
   }
 }
 
 @media only screen and (min-width: 1700px) {
-  img {
+  .handsImg {
     height: 650px;
-  }
-}
-
-@media only screen and (max-width: 992px) {
-  .navbar {
-    /* background-size: auto 100px; */
-    /* background-position: 40px 0; */
   }
 }
