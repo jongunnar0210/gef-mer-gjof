@@ -20,6 +20,7 @@ body {
 h1 {
   font-family: TitilliumWeb-Regular;
   font-size: 80px;
+  margin-right: 0;
 }
 
 h2 {
@@ -51,17 +52,31 @@ h2 {
 }
 
 @media only screen and (max-width: 992px) {
+/* @media only screen and (max-width: 1020px) { */
+  h1 {
+    font-size: 55px;
+    margin-right: 100px;
+  }
+  h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
   .navbar {
     height: auto;
+    margin-top: 0;
   }
   .navbar img {
     margin-left: 0;
+    height: 70px;
   }
   .navbarItems {
-    margin-left: 14px !important;
+    margin-left: 12px !important;
   }
   .nav-link:nth-child(1) {
     padding-top: 0;
+  }
+  .container-fluid {
+    padding-left: 8px !important;
   }
 }
 
