@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/gef-mer-gjof/static/css/main.e2cc5488.chunk.css",
+    "main.css": "/gef-mer-gjof/static/css/main.25e94946.chunk.css",
     "main.js": "/gef-mer-gjof/static/js/main.8868aee2.chunk.js",
     "main.js.map": "/gef-mer-gjof/static/js/main.8868aee2.chunk.js.map",
     "runtime-main.js": "/gef-mer-gjof/static/js/runtime-main.5239ba90.js",
@@ -12,7 +12,7 @@
     "static/js/3.45d53d05.chunk.js.map": "/gef-mer-gjof/static/js/3.45d53d05.chunk.js.map",
     "index.html": "/gef-mer-gjof/index.html",
     "static/css/2.20aa2d7b.chunk.css.map": "/gef-mer-gjof/static/css/2.20aa2d7b.chunk.css.map",
-    "static/css/main.e2cc5488.chunk.css.map": "/gef-mer-gjof/static/css/main.e2cc5488.chunk.css.map",
+    "static/css/main.25e94946.chunk.css.map": "/gef-mer-gjof/static/css/main.25e94946.chunk.css.map",
     "static/js/2.f1e5dcec.chunk.js.LICENSE.txt": "/gef-mer-gjof/static/js/2.f1e5dcec.chunk.js.LICENSE.txt",
     "static/media/Logo.cfb5cf34.png": "/gef-mer-gjof/static/media/Logo.cfb5cf34.png",
     "static/media/App.css": "/gef-mer-gjof/static/media/TitilliumWeb-Regular.522ebad2.ttf",
@@ -22,7 +22,7 @@
     "static/js/runtime-main.5239ba90.js",
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.f1e5dcec.chunk.js",
-    "static/css/main.e2cc5488.chunk.css",
+    "static/css/main.25e94946.chunk.css",
     "static/js/main.8868aee2.chunk.js"
   ]
 }
